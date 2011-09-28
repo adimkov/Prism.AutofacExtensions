@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Prism.AutofacExtensions.Silverlight</RootNamespace>
-    <AssemblyName>Prism.AutofacExtensions.Silverlight</AssemblyName>
+    <RootNamespace>Microsoft.Practices.Prism.AutofacExtensions.Silverlight</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism.AutofacExtensions.Silverlight</AssemblyName>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
@@ -73,14 +73,14 @@
     <Compile Include="..\Prism.AutofacExtensions\AutofacServiceLocatorAdapter.cs">
       <Link>AutofacServiceLocatorAdapter.cs</Link>
     </Compile>
-    <Compile Include="..\Prism.AutofacExtensions\RegionAdapterInitializerModule.cs">
-      <Link>RegionAdapterInitializerModule.cs</Link>
+    <Compile Include="..\Prism.AutofacExtensions\AutowiringRegistrationSource.cs">
+      <Link>AutowiringRegistrationSource.cs</Link>
     </Compile>
-    <Compile Include="..\Prism.AutofacExtensions\RegionInitializerModule.cs">
-      <Link>RegionInitializerModule.cs</Link>
+    <Compile Include="..\Prism.AutofacExtensions\Modules\RegionAdapterInitializerModule.cs">
+      <Link>Modules\RegionAdapterInitializerModule.cs</Link>
     </Compile>
-    <Compile Include="..\Prism.AutofacExtensions\ResolveAnythingRegistrationSource.cs">
-      <Link>ResolveAnythingRegistrationSource.cs</Link>
+    <Compile Include="..\Prism.AutofacExtensions\Modules\RegionInitializerModule.cs">
+      <Link>Modules\RegionInitializerModule.cs</Link>
     </Compile>
     <Compile Include="..\Prism.AutofacExtensions\Resources\AutofacExtensionsResource.Designer.cs">
       <Link>Resources\AutofacExtensionsResource.Designer.cs</Link>

@@ -39,7 +39,8 @@ namespace Microsoft.Practices.Prism.AutofacExtensions {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Prism.AutofacExtensions.Silverlight.Resources.AutofacExtensionsResource", typeof(AutofacExtensionsResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Microsoft.Practices.Prism.AutofacExtensions.Silverlight.Resources.AutofacExtensio" +
+                            "nsResource", typeof(AutofacExtensionsResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -8,8 +8,8 @@
     <ProjectGuid>{024CA6DC-AA7F-4359-8847-67F104E7F1D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Prism.AutofacExtensions</RootNamespace>
-    <AssemblyName>Prism.AutofacExtensions</AssemblyName>
+    <RootNamespace>Microsoft.Practices.Prism.AutofacExtensions</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism.AutofacExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -58,10 +58,10 @@
   <ItemGroup>
     <Compile Include="AutofacBootstrapper.cs" />
     <Compile Include="AutofacServiceLocatorAdapter.cs" />
+    <Compile Include="AutowiringRegistrationSource.cs" />
+    <Compile Include="Modules\RegionAdapterInitializerModule.cs" />
+    <Compile Include="Modules\RegionInitializerModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegionAdapterInitializerModule.cs" />
-    <Compile Include="RegionInitializerModule.cs" />
-    <Compile Include="ResolveAnythingRegistrationSource.cs" />
     <Compile Include="Resources\AutofacExtensionsResource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
